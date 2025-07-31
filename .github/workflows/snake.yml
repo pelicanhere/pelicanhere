@@ -1,5 +1,8 @@
 name: generate snake
 
+permissions:
+  contents: write
+  
 on:
   # run automatically every 24 hours
   schedule:
@@ -12,8 +15,8 @@ on:
   push:
     branches:
     - main
-    
-  
+
+
 
 jobs:
   generate:
